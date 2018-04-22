@@ -12,8 +12,9 @@ body {
     display:flex;
     justify-content: center;
 }
-h2{
-    
+h2{margin:0px;
+    margin-top:99px;
+    font-size: 36px;
     display:flex;
     justify-content: center;
     flex-direction: column;
@@ -305,5 +306,125 @@ skills div img{
     width: 504px;
 }
 .about #p5{
+    
+}
+
+/*h2 animate class*/
+
+2
+3
+4
+5
+6
+7
+.hide{
+	opacity:0
+}
+ 
+.show {
+	opacity: 1;
+}
+
+/*Amazink-work-section style staart*/
+.amazink-work{
+    background-color:#f8fcfe;
+}
+.amazink-work h2{
+    color:#4e4e4e;
+    margin-bottom: 101px;
+}
+.amazink-work .container{
+    display:flex;
+    justify-content: center;
+}
+
+.amazink-work ul{
+    display:flex;
+     justify-content: center;
+    list-style-type:none;
+    height:58px;
+    width:auto;
+    background-color:#fff;
+    padding:0px;
+    margin-bottom:70px;
+   
+}
+.amazink-work ul li{
+    
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0px;
+    padding-left:29px;
+    padding-right: 29px;
+   border-left:1px solid #ebebeb;
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+   
+    
+    line-height: 58px;
+    margin-top:0px;
+    margin-bottom: 0px;
+}
+
+.amazink-work ul li:nth-child(5){
+    border-right: 1px solid #ebebeb;
+   
+}
+.amazink-work ul li a{
+    display:inline-block;
+    height: 58px;
+    font-size:14px;
+    width: 100%;
+    text-decoration: none;
+    font-weight:600;
+    color: #717171;
+}
+.container-foto{
+    width: 1144px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    margin:0px;
+    padding:0px;
+    margin-left: auto;
+    margin-right:auto;
+}
+div.work-foto{
+  width: 286px;
+    height: 208px;
+    background:blue;
+    overflow:hidden
+   
+    
+}
+div.work-foto:nth-child(even){
+    background-color:grey;
+}
+
+div.work-foto img{
+    width: 286px;
+    height: 208px;
+}
+
+ #work-more{
+    display:none;
+}
+
+div.btn-content{
+    margin:0px;
+    margin-top:70px;
+    margin-bottom:100px;
+    text-align:center;
+}
+ .btn-load{
+    width: 160px;
+    height:60px;
+    border-radius:3px;
+    color:#fff;
+    background-color:#18cfab;
+     border:0px;
     
 }
