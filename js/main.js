@@ -3,9 +3,10 @@ $(document).ready(function(){
            $('#p2').animate({width: '150px'},3000);
     })
     
-   var a=$(window).offsetTop();
-    $(a).scrollTop(function(){
-        alert(a);
+   
+    
+    $('.btn-load').click(function(){
+        $('#triangle').css("display","none");
     })
 })
   
