@@ -68,7 +68,11 @@ nav ul li {
 /*header style start*/
 
 header {
-    background-color: #3c3c3c;
+   
+    background-image:linear-gradient(rgba(60, 60, 60,0.9),rgba(60, 60, 60,0.9)),url(../img/office-5header.jpg);
+    background-position:center;
+    background-size:cover;
+    
     height: 80vh;
     width: 100%;
     display: flex;
