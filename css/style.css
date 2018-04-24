@@ -635,4 +635,44 @@ section.every p{
     font size:16px;
 }
 
+/*section breaking news*/
+#breaking-news .breaking-content{
+    width: 263px;
+    background-color:#f8fcfe;
+    margin:14px;
+    border:1px solid #f0f1f2;
+    position: relative;
+   
+}
+
+#breaking-news .breaking-content figure{
+    margin:0px;
+    width: 263px;
+    height: 229px;
+    overflow:hidden;
+}
+#breaking-news .breaking-content figure img{
+    width: 263px;
+    height: 229px;
+}
+
+#breaking-news .breaking-content .data {
+    position: absolute;
+    z-index:10;
+    width: 68px;
+    height: 66px;
+    right: 0;
+    top:0;
+    background-color:#203e38;
+    color:#fff;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+
+}
+#breaking-news .breaking-content .data h4{
+    margin:0px;
+}
+
 
