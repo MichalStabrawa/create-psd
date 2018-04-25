@@ -621,7 +621,7 @@ section.every {
     align-items: center;
     width: 100%;
     height: 476px;
-    background-image:linear-gradient(rgba(60, 60, 60, 0.8), rgba(60, 60, 60, 0.8)), url(../img/blur.jpg);
+    background-image: linear-gradient(rgba(60, 60, 60, 0.8), rgba(60, 60, 60, 0.8)), url(../img/blur.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -680,4 +680,58 @@ section.every p {
 
 #breaking-news .breaking-content .data h4 {
     margin: 0px;
+}
+
+.general-class .round-icons {
+    width: 165px;
+    height: 165px;
+    border: 2px solid #18cfab;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 26px;
+}
+
+.general-class .div-icons:nth-child(even) {
+    border-top: 7px solid #25333c;
+}
+
+.general-class .div-icons p{
+    font-size:18px;
+    color: rgba(37, 51, 60, 255);
+}
+
+section.general-class .round-icons:nth-child(even) {
+    border: 2px solid #25333c;
+}
+
+.general-class .round-icons figure {
+    width: 111px;
+    height: 111px;
+    margin: 0px;
+    background-color: #18cfab;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.general-class .black {
+    border: 2px solid #25333c;
+}
+
+section.general-class .black figure {
+    background-color:#25333c;
+}
+
+.general-class .div-icons .round-content{
+    font-size:36px;
+    margin:0px;
+    color:#fff;
+}
+
+.general-class .div-icons .text-green{
+    color: #18cfab;
+    font-size:18px;
 }
