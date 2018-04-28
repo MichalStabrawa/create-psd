@@ -262,4 +262,7 @@
         margin-top:30px;
         padding:0px;
     }
+    .col-lg-map:nth-child(1) img{
+        height:auto;
+    }
 }
