@@ -63,6 +63,40 @@ nav ul li {
     font-weight: 700;
 }
 
+.hamburger{
+    line-height: 50px;
+    width:40px;
+    height: 35px;
+    border:0;
+    border-top:5px solid #fff;
+    background:transparent;
+    position:relative;
+    transition: 0.3s;
+    
+}
+.hamburger::before, .hamburger::after{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    border-top:5px solid #fff;
+    transform:translateY(10px);
+}
+
+.hamburger::after{
+    transform:translateY(25px);
+     transition: 0.3s;
+    
+}
+.hamburger:focus{
+    transform:rotate(45deg) translateY(5px);
+    border:none;
+}
+.hamburger:focus::after{
+    transform: rotate(-90deg) translateX(-10px);
+}
+
 /*nav style end*/
 
 /*header style start*/
@@ -820,4 +854,41 @@ section.carousel-blog p{
     color:#bbbbbb;
     
 }
+
+/*carousel style*/
+.carousel {
+    width: 400px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.carousel-inner {
+    position: relative;
+    width: 170px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-item{
+    width: 164px;
+    height: 164px;
+    border-radius:50%;
+    border:10px solid rgba(43, 95, 98, 0.9);
+}
+
+.carousel-item img{
+    border-radius:50%;
+    border:2px solid #18cfab;
+}
+
+.carousel-indicators{
+    bottom:-80px;
+}
+.carousel-control-prev ,.carousel-control-next{
+    top:135%;
+}
+
+
 

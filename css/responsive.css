@@ -22,6 +22,10 @@
         padding-left:0px;
 }
     
+    h2{
+        width: 100%;
+    }
+    
     header h1 {
     font-size: 40px;
     margin: 0px;
@@ -60,6 +64,7 @@
     }
     
     .about .about-col-2 h2 {
+        width: 100%;
     text-align: center;
     display: block;
     font-size: 28px;
@@ -184,5 +189,10 @@
     padding: 5px;
     color: #c8c9c9;
     text-align: center;
+}
+    .about-col-2-content .hgroup h3 {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
 }
 
