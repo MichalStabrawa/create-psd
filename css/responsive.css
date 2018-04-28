@@ -22,15 +22,15 @@
         padding-left: 0px;
         display: none;
     }
-    div.logo{
+    div.logo {
         width: 100%;
-        display:flex;
+        display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .hamburger{
-            display:block;
-        }
+    .hamburger {
+        display: block;
+    }
 
     h2 {
         width: 100%;
@@ -205,12 +205,61 @@
         padding: 10px;
         font-size: 20px;
     }
-
-    @media only screen and (max-width: 720px) {
-        .carousel {
-            width: 100%;
-        }
-        .hamburger{
-            display:block;
-        }
+    .theme {
+        height: auto;
     }
+    #map #map-h {
+        text-align: left;
+        margin: 0px;
+    }
+
+    form input,
+    form textarea {
+        width: 95%;
+        
+
+
+
+    }
+    
+    form button[type="submit"]{
+        width: 95%;
+    }
+    
+    form{
+        width: 100%;
+        margin-bottom:10px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 720px) {
+    .carousel {
+        width: 100%;
+    }
+    .hamburger {
+        display: block;
+    }
+
+    .container-fluide {
+        flex-direction: column-reverse;
+    }
+    .container-fluide .col-lg-map {
+        width: 100%;
+    }
+    .col-lg-map:nth-child(1){
+        margin-top:10px;
+    }
+    .theme .about-col-2 img{
+        width: 100%;
+    }
+    .theme button.btn-every{
+        margin-bottom:30px;
+    }
+    #map #map-h{
+        margin-top:30px;
+        padding:0px;
+    }
+}
