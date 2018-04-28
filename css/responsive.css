@@ -28,6 +28,9 @@
         justify-content: space-around;
         align-items: center;
     }
+    .hamburger{
+            display:block;
+        }
 
     h2 {
         width: 100%;
@@ -206,5 +209,8 @@
     @media only screen and (max-width: 720px) {
         .carousel {
             width: 100%;
+        }
+        .hamburger{
+            display:block;
         }
     }
