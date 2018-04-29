@@ -238,6 +238,35 @@ section.contact .container-fluide{
         flex-direction: column;
     justify-content: center;
     }
+    
+    section.contact .container-fluide .col-contact:nth-child(1){
+        width: 100%;
+        text-align: center;
+    }
+    section.contact h4 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 62px;
+    margin-top: 36px;
+}
+    .contact div.col-contact-content {
+    width: 100%;
+    padding-left: 10px;
+}
+    div.col-contact .contact-tag{
+        width: 100%;
+        text-align: center;
+    }
+    div.col-contact .contact-tag div {
+    display: flex;
+    justify-content: center;
+}
+    .col-contact div.feed {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+    
 }
 
 @media only screen and (max-width: 720px) {
