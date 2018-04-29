@@ -1,3 +1,49 @@
+@media only screen and (max-width: 1196px){
+    form input, form textarea,form button[type="submit"]{
+        width: 99%;
+    }
+    
+    .about .progress{
+        width: 100%;
+    }
+    .about .progress-content{
+        width: 40.1%;
+    }
+    .about #p2{
+        width: 47.1%;
+    }
+    .about #p3{
+        width: 37.1%;
+    }
+    .about #p4 {
+        width: 50.4%;
+    }
+    .about-col-2-content .hgroup h3{
+        font-size:20px;
+    }
+    .container-foto{
+        width: 100%;
+    }
+    div.servises-content{
+        max-width: 960px;
+        padding-right:15px;
+        padding-left:15px;
+    }
+    #breaking-news .container{
+        flex-wrap:wrap;
+       width: 80%;
+    }
+    .container-bottom{
+        width: 80%;
+        flex-wrap:wrap;
+    }
+    #meet-team .container{
+        width: 80%;
+        flex-wrap:wrap;
+    }
+}
+
+
 @media only screen and (max-width: 942px) {
     nav {
         width: 100%;
@@ -65,6 +111,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        max-width: auto;
     }
 
 
@@ -211,7 +258,14 @@
     #map #map-h {
         text-align: left;
         margin: 0px;
+        padding-top:100px;
     }
+    
+    form{
+        width: 100%;
+    }
+    form button[type="submit"] {
+        width: 100%;}
 
     form input,
     form textarea {

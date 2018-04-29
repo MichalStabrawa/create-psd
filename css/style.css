@@ -11,6 +11,7 @@ body {
 
     display: flex;
     justify-content: center;
+    
 }
 
 h2 {
@@ -462,6 +463,11 @@ skills div img {
     padding: 0px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.foto{
+    display:none;
+}
 }
 
 div.work-foto {
@@ -1086,7 +1092,7 @@ section.carousel-blog p {
 
 form {
     padding: left:20px;
-
+width: 100%;
     display: flex;
     flex-direction: column;
     margin-bottom: 128px;
