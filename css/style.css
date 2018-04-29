@@ -37,11 +37,7 @@ h2::after {
 
 /*nav style */
 
-.navbar {
-    position: fixed;
-    width: 100%;
-    z-index: 1000;
-}
+
 
 nav {
     width: 100%;
@@ -52,8 +48,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     color: #fff;
-    opacity: 0.7;
-    position: fixed;
+    
+    
 
 }
 
