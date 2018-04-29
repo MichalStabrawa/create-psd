@@ -231,8 +231,13 @@
         margin-bottom:10px;
     }
 
-
-
+    section.contact{
+        height: auto;
+    }
+section.contact .container-fluide{
+        flex-direction: column;
+    justify-content: center;
+    }
 }
 
 @media only screen and (max-width: 720px) {
@@ -264,5 +269,12 @@
     }
     .col-lg-map:nth-child(1) img{
         height:auto;
+    }
+    
+    section.contact{
+        height: auto;
+    }
+    section.contact .container-fluide{
+        flex-direction: column;
     }
 }

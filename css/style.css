@@ -660,7 +660,7 @@ div.servises-content {
     clear: both;
 }
 
-/*every section*/
+/*every section*************************************************************************************/
 
 section.every {
     display: flex;
@@ -687,7 +687,7 @@ section.every p {
     font size: 16px;
 }
 
-/*section breaking news*/
+/*section breaking news********************************************************/
 
 #breaking-news .breaking-content {
     width: 263px;
@@ -788,7 +788,7 @@ section.general-class .black figure {
     margin-bottom: 100px;
 }
 
-/*section Our Princing Table*/
+/*+++++++++++++++++++++++++section Our Princing Table+++++++++++++++++++++++++++++++++++++++++++++*/
 
 div.table {
     width: 286px;
@@ -860,7 +860,7 @@ button.btn-table {
     border: 0px;
 }
 
-/*section carousel-blog*/
+/*section carousel-blog+++++++++++++++++++++++++++++++++*/
 
 section.carousel-blog {
     width: 100%;
@@ -969,7 +969,7 @@ section.carousel-blog p {
 
 }
 
-/*meet team*/
+/*meet team********************************************************************************************/
 
 #meet-team .container {
     display: flex;
@@ -1021,7 +1021,7 @@ section.carousel-blog p {
     align-items: center;
 }
 
-/*theme section*/
+/*theme section**************************************************************/
 
 .theme {
     height: 924px;
@@ -1057,7 +1057,7 @@ section.carousel-blog p {
     color: #18cfab;
 }
 
-/*section map*/
+/*section map**********************************************************************************************/
 
 #map {
     height: auto;
@@ -1145,3 +1145,165 @@ form button[type="submit"] {
      width: 100%;
     height: 100%;
   }
+
+/*contact section*/
+
+section.contact{
+    width: 100%;
+    height: 757px;
+    background:#1c2b33;
+    color:#fff;
+}
+section.contact h4{
+    font-size:16px;
+    margin-bottom: 62px;
+   
+}
+
+section.contact h5{
+    font-size:18px;
+}
+section.contact h1{
+ 
+    font-size:40px;
+    margin:0px;
+    margin-bottom:36px;
+    font-weight: 700;
+       
+}
+section.contact h1 span{
+    color:#18cfab;
+}
+
+section.contact h6{
+    color:#f1f1f1;
+}
+
+section.contact p{
+    font-size:14px;
+}
+
+section.contact .container-fluide{
+    justify-content: center;
+    padding-top:129px;
+}
+
+.col-contact{
+    padding-right: 10px;
+}
+
+
+section.contact .adress{
+    margin-top:80px;
+}
+
+
+
+section.contact .container-fluide .col-contact:nth-child(1){
+    width:25%;
+}
+
+.contact div.col-contact-content{
+    width: 338px;
+}
+
+
+div.col-contact .general-col-content {
+   display:flex;
+    justify-content: flex-start;
+   
+}
+div.col-contact .col-contact-content::after{
+    content:"";
+    display:block;
+    border:0.5px solid #294453;
+    margin-top:31px;
+    margin-bottom: 33px;
+}
+div.col-contact .contact-tag{
+    width: 241px;
+    padding-left:10px;
+}
+
+
+div.col-contact .contact-tag::after{
+    content:'';
+    display:block;
+    border:0.5px solid #294453;
+    margin-top:36px;
+    margin-bottom: 33px;
+}
+div.col-contact .contact-tag div{
+    display:flex;
+}
+
+div.col-contact .contact-tag div a{
+    display:inline-block;
+    width: 63px;
+    height: 37px;
+    border:1px solid #acacac;
+    margin-left:8px;
+    text-align: center;
+    line-height: 37px;
+    font-size:12px;
+    text-decoration: none;
+    color:#fff;
+    margin-bottom: 8px;
+}
+div.col-contact .contact-tag div a:nth-child(1){
+    margin-left: 0px;
+}
+
+div.col-contact-content div.content-img{
+  width: 73px;
+    
+}
+div.col-contact-content div.content-text{
+    padding-left:10px;
+}
+
+.contact-tag input[type="email"]{
+    background:#22353f;
+    width: 242px;
+    height:42px;
+    border:0px;
+}
+.contact-tag input[type="submit"]{
+    background: #294453;
+    width: 44px;
+    height:42px;
+    color:#18cfab;
+    border:0px;
+}
+
+.col-contact div.feed{
+    display:flex;
+    width: 116px;
+   
+}
+.col-contact div.feed figure{
+    width: 75px;
+    height: 75px;
+    margin:0px;
+    margin-bottom: 8px;
+    margin-left:8px;
+    
+}
+
+footer{
+    width: 100%;
+    height: 108px;
+    background-color:#22353f;
+    color:#a7a8a8;
+    display:flex;
+    justify-content: center;
+    font-size:12px;
+    align-items: center;
+}
+
+footer p{
+    margin:0px;
+}
+
+
+
