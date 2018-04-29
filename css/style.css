@@ -558,23 +558,7 @@ div.btn-content {
 
 /*triangle start*/
 
-#triangle {
 
-
-    content: "";
-    display: block;
-    width: 0px;
-    height: 0px;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-top: 20px solid #18cfab;
-
-    margin-left: auto;
-    margin-right: auto;
-
-
-
-}
 
 /*trinagle end*/
 
@@ -615,18 +599,7 @@ div.btn-content {
 
 }
 
-#services ul li::after {
-    content: "";
-    display: block;
-    width: 0px;
-    height: 0px;
-    border-left: 13px solid transparent;
-    border-right: 13px solid transparent;
-    border-top: 13px solid #18cfab;
-    margin-left: auto;
-    margin-right: auto;
 
-}
 
 #services ul li:nth-child(5) {
     border-right: 1px solid #ebebeb;
@@ -998,6 +971,7 @@ section.carousel-blog p {
 }
 
 .meet-item figure {
+    position:relative;
     width: 263px;
     height: 229px;
     overflow: hidden;
@@ -1006,6 +980,43 @@ section.carousel-blog p {
 .meet-item figure img {
     width: 100%;
     height: 229px;
+}
+
+.meet-mask{
+    position:absolute;
+    top:0;
+    z-index:10;
+    width: 263px;
+    height: 229px;
+    background:#8c9aa3;
+    opacity:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    
+}
+.meet-mask div{
+    width: 85px;
+    height: 85px;
+    border:2px solid #18cfab;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meet-mask div span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    background-color:#fff;
+    border-radius:50%;
+    color:#18cfab;
+}
+.meet-mask:hover{
+    opacity:0.9;
 }
 
 .meet-item div.social {
@@ -1226,6 +1237,7 @@ div.col-contact .contact-tag{
     width: 241px;
     padding-left:10px;
 }
+div.col-contact .contact-tag:hover
 
 
 div.col-contact .contact-tag::after{
@@ -1237,6 +1249,11 @@ div.col-contact .contact-tag::after{
 }
 div.col-contact .contact-tag div{
     display:flex;
+    
+}
+div.col-contact .contact-tag div a:hover{
+    background:#18cfab;
+    transition: 0.5s;
 }
 
 div.col-contact .contact-tag div a{
@@ -1262,6 +1279,13 @@ div.col-contact-content div.content-img{
 }
 div.col-contact-content div.content-text{
     padding-left:10px;
+}
+div.col-contact-content div.content-text h5{
+    transition: all linear 0.3s;
+}
+div.col-contact-content div.content-text h5:hover{
+    color:#18cfab;
+    transition: all linear 0.3s;
 }
 
 .contact-tag input[type="email"]{
